@@ -1,0 +1,34 @@
+body{
+    background-color: pink;
+}
+
+h1{
+    text-align: center; 
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 4px solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.white {
+    background-color: white;
+    flex: 1;
+}
+
+.black {
+    background-color: black;
+    flex: 1;
+}
